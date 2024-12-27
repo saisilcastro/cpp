@@ -1,4 +1,4 @@
-NAME = Base
+NAME = Run
 SRC = main.cpp
 OBJ = obj
 SRCOBJ = $(SRC:%.cpp=${OBJ}/%.o)

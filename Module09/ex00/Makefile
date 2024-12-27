@@ -1,4 +1,4 @@
-NAME = Base
+NAME = Run
 SRC = main.cpp
 OBJ = obj
 SRCOBJ = $(SRC:%.cpp=${OBJ}/%.o)
@@ -9,7 +9,7 @@ CPP = c++
 
 all: $(NAME)
 $(NAME): $(SRCOBJ)
-	@printf "compiling done"
+	@printf "compiling done\n"
 	@$(CPP) $^ -std=c++98 $(FLAG) -o $(NAME)
 ${OBJ}/%.o : %.cpp
 	@printf "building "$@"\n"
