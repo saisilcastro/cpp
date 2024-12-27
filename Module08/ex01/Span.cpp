@@ -1,6 +1,6 @@
 #include "Span.h"
 
-Span::Span() : n(1) {}
+Span::Span() : n(0) {}
 
 Span::Span(unsigned int _n) : n(_n) {}
 
